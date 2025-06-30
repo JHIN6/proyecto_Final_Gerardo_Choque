@@ -1,10 +1,13 @@
 {
+  
   "name": "proyecto-final",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+
   },
   "keywords": [],
   "author": "",
@@ -19,4 +22,5 @@
     "sequelize": "^6.37.7",
     "sqlite3": "^5.1.7"
   }
+  
 }
