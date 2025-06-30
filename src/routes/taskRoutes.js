@@ -3,7 +3,7 @@ const router = express.Router();
 const taskController = require("../controllers/taskController");
 const auth = require("../middleware/authMiddleware");
 
-router.use(auth); // proteger todas las rutas
+router.use(auth); 
 
 router.get("/", taskController.getTasks); // 4.5
 router.post("/", taskController.createTask); // 4.6
